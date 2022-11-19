@@ -1,0 +1,146 @@
+body{
+    font-family: tahoma, arial, sans-serif; /*fonte*/
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    width: 1024px; /*TAMANHO DA DIV*/
+    margin: 20px auto; /*20PX PRA CIMA E AUTO PRA ESQUERDA*/
+}
+
+.header-top{
+    height: 50px; /*altura*/
+    background-color: #162028; /*cor de fundo*/
+    position: relative; /*PARA O MENU SE RELACIONAR COM O HEADER*/
+}
+
+.logotipo{ /*logotipo fashion*/
+    margin: 5px 0 0 135px; /*cima, direita, baixo, esquerda*/
+}
+
+.header-nav{ /*FORMATAR O MENU*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block; /*PARA OS MENUS FICAREM UM DO LADO DO OUTRO*/
+    margin: 0 15px 0 0; /*MARGEM 0 PRA TODO MUNDO. EXCETO PRA DIREITA*/
+    padding: 13px; 
+}
+
+.header-nav a{
+    color: #425564; /*COR DA FONTE*/
+    text-decoration: none; /*TIRAR O SUBLINHADO*/
+    text-transform: uppercase; /*TUDO MAIÚSCULO*/
+    font-size: 12px; /*TAMANHO DA FONTE*/
+    letter-spacing: 5px; /*ESPAÇO ENTRE AS LETRAS*/
+    transition: color 0.5s linear; /*APARECE COR QUANDO COLOCA O MOUSE EM CIMA*/
+}
+
+.header-nav a:hover{
+    color: white;
+}
+
+.portfolio{
+    padding: 50px 100px; /*50 CIMA E BAIXO // 100 DIREITA E ESQUERDA*/
+    text-align: center; /*CENTRALIZAR*/
+}
+
+.portfolio h1{
+    font-size: 36px; /*TAMANHO DA FONTE O TEXTO (NEW FASHION...)*/
+    color: #252525; /*COR DO TEXTO*/
+}
+
+.portfolio p{
+    font-size: 16px; /*TAMANHO DA FONTE DO PARÁGRAFO*/
+    line-height: 2; /*espaço duplo entre as linhas*/
+    color: #555; /*COR DO PARÁGRAFO*/
+}
+
+.gallery{
+    color: #555; /*COR DO TEXTO DAS FOTOS*/
+    padding: 0 100px 50px 100px; /*TOPO, DEIREITA, BAIXO, ESQUERDA*/
+    overflow: auto;
+}
+
+.gallery-card{
+    width: 32%; /*LARGURA*/
+    float: left;
+    text-align: center; /*CENTRALIZAR O TEXTO*/
+}
+
+.gallery-title{
+    text-transform: uppercase; /*TUDO MAIÚSCULO*/
+    letter-spacing: 4px; /*ESPAÇO ENTRE AS LETRAS*/
+    font-size: 16px; /*TAMANHO DA FONTE*/
+    font-weight: bold; /*DEIXAR O TEXTO EM NEGRITO*/
+}
+
+.about{
+    background-color: #003d52; /*COR DE FUNDO*/
+    padding: 100px;
+    color: white; /*COR DO TEXTO*/
+    background-image: url(../bg_detalhe.png); /*FOTO DE FUNDO*/
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.about p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contact{
+    margin: 50px 0;
+}
+
+#contact address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal; /*tirar o itálico que vem padrão no address*/
+    text-align: center;
+    font-weight: bold;
+}
+
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+}
+
+.maps iframe{
+    width: 100%; /*centralizar o maps*/
+}
+
+.rodape{
+    background-color: #0b171f;
+    padding: 25px;
+    font-size: 12px;
+    color: #6f8597;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*display: inline-block = para ficar um do lado do outro*/
